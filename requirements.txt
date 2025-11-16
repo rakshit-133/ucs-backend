@@ -29,7 +29,7 @@ langchain-core==0.3.79
 langchain-google-genai==2.1.12
 langchain-text-splitters==0.3.11
 langsmith==0.4.34
-networkx==3.5
+networkx==3.1.1
 orjson==3.11.3
 packaging==25.0
 proto-plus==1.26.1
