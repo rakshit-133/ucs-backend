@@ -16,7 +16,7 @@ google-auth-httplib2==0.2.0
 
 # Google GenAI stable versions
 google-generativeai==0.5.4
-google-ai-generativelanguage==0.4.0
+google-ai-generativelanguage==0.6.4
 googleapis-common-protos==1.63.0
 proto-plus==1.23.0
 protobuf==4.25.3
