@@ -15,7 +15,7 @@ google-api-python-client==2.120.0
 google-auth==2.34.0
 google-auth-httplib2==0.2.0
 
-# Google Generative AI - Stable compatible versions
+# Google Generative AI (stable & compatible)
 google-generativeai==0.5.4
 google-ai-generativelanguage==0.6.4
 googleapis-common-protos==1.63.0
@@ -35,13 +35,13 @@ idna==3.6
 jsonpatch==1.33
 jsonpointer==3.0.0
 
-# ---- LangChain (compatible with Google GenAI) ----
+# ---- LangChain Compatibility (NO CONFLICTS) ----
 langchain==0.1.20
-langchain-core==0.1.46
+langchain-core==0.1.52
 langchain-google-genai==1.0.3
 langchain-text-splitters==0.0.1
 langsmith==0.1.99
-# --------------------------------------------------
+# ------------------------------------------------
 
 networkx==3.1
 orjson==3.9.12
