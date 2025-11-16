@@ -9,12 +9,13 @@ colorama==0.4.6
 fastapi==0.110.1
 filetype==1.2.0
 
+# Google API + Auth
 google-api-core==2.19.0
 google-api-python-client==2.120.0
 google-auth==2.34.0
 google-auth-httplib2==0.2.0
 
-# Google GenAI stable versions
+# Google Generative AI - Stable compatible versions
 google-generativeai==0.5.4
 google-ai-generativelanguage==0.6.4
 googleapis-common-protos==1.63.0
@@ -34,12 +35,13 @@ idna==3.6
 jsonpatch==1.33
 jsonpointer==3.0.0
 
-# LangChain (core + integrations)
-langchain==0.3.6
-langchain-core==0.3.14
+# ---- LangChain (compatible with Google GenAI) ----
+langchain==0.1.20
+langchain-core==0.1.46
 langchain-google-genai==1.0.3
-langchain-text-splitters==0.3.0
-langsmith==0.1.125
+langchain-text-splitters==0.0.1
+langsmith==0.1.99
+# --------------------------------------------------
 
 networkx==3.1
 orjson==3.9.12
@@ -47,11 +49,8 @@ packaging==23.2
 
 pyasn1==0.5.0
 pyasn1_modules==0.4.0
-
-# FIXED — pydantic compatible with FastAPI + LangChain
-pydantic==2.7.4
-pydantic_core==2.18.2
-
+pydantic==2.6.4
+pydantic_core==2.14.6
 pyparsing==3.1.1
 PyYAML==6.0.1
 
