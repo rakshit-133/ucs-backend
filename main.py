@@ -4,6 +4,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 import os
+import dotenv
 
 # Import all the necessary functions and classes from your analyzer script
 from analyzer import generate_ai_summary, CodeAnalyzer, build_graph_model, create_logic_flowchart, ast
@@ -11,6 +12,9 @@ from analyzer import generate_ai_summary, CodeAnalyzer, build_graph_model, creat
 # Initialize the FastAPI app
 app = FastAPI()
 
+@app.get("/")
+def home():
+    return {"status": "Backend is running on Render 🚀"}
 # --- CORS Configuration ---
 frontend_url = os.environ.get('FRONTEND_URL', 'http://localhost:5173')
 
